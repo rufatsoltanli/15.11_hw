@@ -50,7 +50,7 @@
     }
 
     .respnav {
-        display: block;
+        display: none;
         background-color: black;
         position: fixed;
         width: 100%;
@@ -116,6 +116,7 @@
 
 .respnavVisible {
     transform: translateX(-1000px);
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -137,6 +138,10 @@
                     margin-right: 5px;
                 }
             }
+        }
+
+        .respnav {
+            display: block;
         }
 
         .texts {
